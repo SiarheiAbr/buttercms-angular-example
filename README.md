@@ -1,6 +1,12 @@
 # ButterExample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
+This is an example of ButterCMS integration with Angular application.
+
+1. create an account in buttercms: https://buttercms.com
+2. put your token into butterCMS.service.ts
+3. add some page in buttercms
+4. this example uses page with 'homepage' name, update home component with yours
 
 ## Development server
 
