@@ -1,0 +1,9 @@
+<div class="container">
+    <div fxLayout="column" class="details">
+    <div class="blocks">        
+        <a *ngFor="let item of page.fields.body" href="{{item.fields.button_url}}">
+            <img title="{{item.fields.button_label}}" src="{{item.fields.image}}"/>
+        </a>          
+    </div>        
+    </div>
+</div>
